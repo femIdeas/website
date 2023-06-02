@@ -1,0 +1,142 @@
+.body{
+    min-height: 800px;
+    position: relative;
+    background-image: url('../Images/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 100%;
+}
+.bBack{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 4;
+}
+.bTexts{
+    width: 100%;
+    max-width: calc(100% - 400px);
+    position: relative;
+    top: 50px;
+    z-index: 5;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+}
+.btInner{
+    width: 700px;
+}
+.btHeader{
+    color: #ffffff;
+    font-family: 'Neuton', sans-serif;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+.btText{
+    width: 100%;
+    color: #ffffff;
+    line-height: 30px;
+}
+.btLink{
+    display: flex;
+    align-items: center;
+    margin-top: 36px;
+}
+.btlText{
+    color: #ffffff;
+    margin-right: 8px;
+    text-decoration: underline;
+}
+.btlImg{
+    
+}
+
+
+
+.bodyContent{
+    width: calc(100% - 40px);
+    margin: 24px auto;
+    display: grid;
+    display: none;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 40px;
+}
+.bcBlock{
+    display: flex;
+    flex-direction: column;
+}
+.bcbHeader{
+    color: #840044;
+    margin-bottom: 12px;
+    font-weight: 600;
+    font-family: 'Neuton', sans-serif;
+}
+.bcbText{
+    color: #000000;
+    line-height: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1600px) {
+    .bTexts{
+        max-width: calc(100% - 200px);
+    }
+}
+@media only screen and (max-width: 1400px) {
+    .body{
+        min-height: 600px;
+    }
+    .bTexts{
+        max-width: calc(100% - 160px);
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .bTexts{
+        width: 100vw;
+        overflow-x: hidden;
+    }
+    .bBack{
+        height: 837px;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    .bTexts {
+        max-width: calc(100% - 80px);
+    }
+    .btText{
+        line-height: 26px;
+    }
+    .btInner{
+        width: 100%;
+    }
+    .btLink{
+        margin-top: 20px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .body{
+        min-height: unset;
+        height: fit-content;
+        padding-bottom: 140px;
+    }
+    .bTexts {
+        max-width: calc(100% - 40px);
+    }
+    .btText{
+        line-height: 24px;
+    }
+    .bodyContent{
+        display: grid;
+    }
+}

@@ -1,0 +1,146 @@
+.header{
+    width: 100%;
+    border-bottom: 1px solid #840044;
+}
+.headerFixed{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1001;
+    background: #ffffff;
+}
+.hInner{
+    width: calc(100% - 200px);
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 38px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hLinks{
+    display: flex;
+    align-items: center;
+}
+.hlLink{
+    margin-right: 26px;
+}
+.hlLink:last-child{
+    margin-right: 0;
+}
+.hllText{
+    transition: .0s;
+    text-decoration: none;
+}
+.hllText:hover{
+    transition: .2s;
+    text-decoration: underline;
+    font-weight: 500;
+}
+.hlButton{
+    display: flex;
+    align-items: center;
+    background: #B84A30;
+    padding: 5px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.hlbText{
+    color: #ffffff;
+    margin-right: 5px;
+}
+.hlbImg{
+
+}
+
+
+
+
+.hBurger{
+    width: 22px;
+    height: 18px;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.hbLine{
+    width: 100%;
+    height: 2px;
+    position: relative;
+    background: #840044;
+    border-radius: 6px;
+    opacity: 1;
+    transition: .2s;
+}
+.hbSelected .hbLine0{
+    transform: rotate(45deg);
+    top: 8px;
+}
+.hbSelected .hbLine1{
+    opacity: 0;
+    transition: 0s;
+}
+.hbSelected .hbLine2{
+    transform: rotate(-45deg);
+    top: -8px;
+}
+
+
+
+
+
+
+
+.headerMobile{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: 1000;
+    background: #ffffff;
+    transition: .2s;
+    left: -100vw;
+    /* display: none; */
+}
+.headerMobileSelected{
+    display: flex;
+    top: 66px;
+    left: 0;
+}
+.hmLinks{
+    width: calc(100% - 40px);
+    height: fit-content;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+    padding-top: 30px;
+    /* border-top: 1px solid #791543; */
+}
+.hmlLink{
+    text-decoration: none;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 1500px) {
+    .hInner{
+        width: calc(100% - 100px);
+        padding: 24px 0;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .hLinks{
+        display: none;
+    }
+    .hBurger{
+        display: flex;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .hInner {
+        width: calc(100% - 40px);
+    }
+}

@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+div, a, p, span, h1, h2, h3, h4, h5{
+    color: #791543;
+    /* font-family: 'PT Sans', sans-serif; */
+    font-family: 'Neuton', serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.f20{
+    font-size: 20px;
+}
+.f24{
+    font-size: 24px;
+}
+.f36{
+    font-size: 36px;
+}
+.f48{
+    font-size: 48px;
+}
+.f64{
+    font-size: 64px;
+}
+
+@media only screen and (max-width: 1500px) {
+    .f20{
+        font-size: 18px;
+    }
+    .f36{
+        font-size: 30px;
+    }
+    .f48{
+        font-size: 40px;
+    }
+    .f64{
+        font-size: 52px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .f20{
+        font-size: 16px;
+    }
+    .f36{
+        font-size: 26px;
+    }
+    .f48{
+        font-size: 32px;
+    }
+    .f64{
+        font-size: 40px;
+    }
+}
+
+
+
+.container{
+    width: 100%;
+    max-width: calc(100% - 500px);
+    margin-left: auto;
+    margin-right: auto;
+}
+.containerAbout{
+    width: calc(100% - 40px);
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* @media only screen and (max-width: 1500px) {
+    .container{
+        max-width: calc(100% - 300px);
+    }
+} */
+
+
+.unselectable{
+    user-drag: none;  
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
