@@ -45,7 +45,8 @@
     text-decoration: none;
 }
 .btLink:hover {
-    text-decoration: underline;
+    font-size: 20px;
+    transition: font-size 0.2s;
 }
 .btlText{
     color: #ffffff;
