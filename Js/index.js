@@ -32,7 +32,7 @@ function linkSelected(){
     for(let i = 0; i < links.length; i++){
         if(window.location.href == linkText[i].href){
             linkText[i].style.textDecoration = 'underline'
-            linkText[i].style.fontWeight = 'bold'
+            linkText[i].style.fontWeight = '500'
         }
     }
 }
