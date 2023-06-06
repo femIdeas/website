@@ -42,6 +42,10 @@
     display: flex;
     align-items: center;
     margin-top: 36px;
+    text-decoration: none;
+}
+.btLink:hover {
+    text-decoration: underline;
 }
 .btlText{
     color: #ffffff;
