@@ -58,6 +58,7 @@
 }
 
 .link-underline {
+    display: inherit;
     border-bottom: 1px solid white;
 }
 
