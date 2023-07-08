@@ -51,13 +51,15 @@
 .btlText{
     color: #ffffff;
     margin-right: 8px;
-    text-decoration: underline;
+    text-decoration: none;
 }
 .btlImg{
     
 }
 
-
+.link-underline {
+    border-bottom: 1px solid white;
+}
 
 .bodyContent{
     width: calc(100% - 40px);
