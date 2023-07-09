@@ -134,12 +134,12 @@
 
 @media only screen and (max-width: 1800px) {
     .aibBlock{
-        margin-top: 60px;
+        margin-top: 40px;
         margin-bottom: 60px;
         padding-bottom: 60px;
     }
     .border{
-        /* top: -40px; */
+        top: -40px;
     }
     .aibbTimeline{
         flex-direction: column;
