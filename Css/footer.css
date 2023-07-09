@@ -27,11 +27,12 @@
 }
 .fb1tLink{
     color: #B84A30;
-    margin-left: 6px;
     text-decoration: none;
 }
 .link-underline-accent {
     border-bottom: 1px solid #B84A30;
+    display: inline-block;
+    margin-left: 6px;
 }
 .fBlock2{
 
