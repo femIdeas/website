@@ -10,6 +10,13 @@
     font-size: 16px;
     margin: 38px 0 0px 0;
 }
+.link-wrapper {
+    display: flex;
+}
+.link-wrapper a {
+    border-bottom: 1px solid #B84A30;
+    text-decoration: none;
+}
 .aiHeaderBig{
     color: #840044;
     font-weight: 400;
@@ -35,6 +42,16 @@
     width: 100%;
 }
 .border{
+    /* display: none; */
+    width: 100%;
+    height: 1px;
+    position: relative;
+    top: -60px;
+    /* left: calc(((100vw - (100vw - 600px))/2*-1)); */
+    background: #840044;;
+}
+
+.border-fullwidth{
     /* display: none; */
     width: 100%;
     height: 1px;
@@ -134,12 +151,16 @@
 
 @media only screen and (max-width: 1800px) {
     .aibBlock{
-        margin-top: 40px;
         margin-bottom: 60px;
         padding-bottom: 60px;
     }
     .border{
         top: -40px;
+    }
+    .border-fullwidth {
+        position: relative;
+        top: 60px;
+        margin-bottom: 120px;
     }
     .aibbTimeline{
         flex-direction: column;
