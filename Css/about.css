@@ -76,7 +76,7 @@
 }
 .aibbtText{
     color: #000000;
-    line-height: 24px;
+    line-height: 26px;
 }
 .aibbtText span a{
     color: #B84A30;
@@ -147,6 +147,20 @@
 }
 .aibbDownloads a:first-child{
     margin-right: 80px;
+}
+.two-column-card{
+    display: flex;
+    column-gap: 50px;
+}
+.two-column-card .left-image{
+    width:250px
+}
+.two-column-card .left-image img {
+    width: 250px;
+}
+.two-column-card .right-text img {
+    position: relative;
+    top: 8px;
 }
 
 @media only screen and (max-width: 1800px) {
