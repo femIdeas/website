@@ -43,6 +43,16 @@
     /* left: calc(((100vw - (100vw - 600px))/2*-1)); */
     background: #840044;;
 }
+
+.border-about-team{
+    /* display: none; */
+    width: 100%;
+    height: 1px;
+    position: relative;
+    top: 0px;
+    /* left: calc(((100vw - (100vw - 600px))/2*-1)); */
+    background: #840044;;
+}
 .aibBlock:last-child{
     border-bottom: none;
     margin-bottom: 0;
