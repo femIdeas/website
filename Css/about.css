@@ -162,8 +162,8 @@
     position: relative;
     top: 8px;
 }
-
-@media only screen and (max-width: 1800px) {
+/* due to mac screen dpi doubling max width  */
+@media only screen and (max-width: 3600px) {
     .aibBlock{
         margin-bottom: 60px;
         padding-bottom: 60px;
